@@ -1,0 +1,11 @@
+1) Create the ForestGlenInn database using this script: lab9_create_forestGlenInn_with_data.sql Download lab9_create_forestGlenInn_with_data.sql
+
+2) Review the database in Workbench to familiarize yourself with the tables, columns, etc. You may want to review the corresponding ERD model here: lab_exercise_9.mwb Download lab_exercise_9.mwb
+
+You will need the following files, as well:
+
+- createFunction.sql Download createFunction.sql
+
+- createTrigger.sql Download createTrigger.sql
+
+- createViews.sql 

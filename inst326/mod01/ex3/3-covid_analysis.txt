@@ -1,0 +1,23 @@
+Module 1 - Exercise 3: Covid Analysis
+
+1. Describe any problems you see with the program that would cause it to report incorrect test results? (3 points)
+
+After examining the given source code, there were a number of details which would possibly lead to an incorrect report of test results. 
+
+Starting with edge-cases, there were exceptional handlings for the answer, q, and t inputs. With the answer input, there should be a fix to handle these case-exceptions (such as a mistype and such). 
+
+For the q and t variable inputs, they should also handle case-exceptions but additionally leave the program if there was an input out of the scope.
+
+Another detail that would potentially lead an incorrect report is that "Minutes since last calibration" should not be correct. We would want to re-edit the "Minutes" to "Hours" since that is the correct measurements.
+
+Lastly, both functions need to be "True" cases in order for there to be a positive test. Therefore, we need to replace the "or" condition within the if-statement to an "and" when comparing if both functions are true.
+
+2. The Director would like you to adapt the program to collect information about the race, gender, and income of the test subject. Please describe in English how you might do that and what some of the problems might be. (3 points)
+
+Most likely, we would need to create a list that tracks a person's race, gender, and income. With that list, we would append new data onto it per session until the program stops or there is an invalid test.
+
+Depending on how specific the data should be, a huge problem would be that it would be very difficult to collectively build as many variables as possible to fit each and every category of specific individual (at least at this time of learning Python). Additionally, by collecting each input separately, we are unable to track which data is with which person (Again, with the current knowledge that we have).
+
+3. Submit a corrected and improved version of the program where the bugs are removed and where you have started to collect demographic information (4 points).
+
+See covid_testing_ANS.py

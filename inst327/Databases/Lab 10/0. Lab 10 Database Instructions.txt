@@ -1,0 +1,9 @@
+In preparation for this lab please perform the tasks listed below prior to beginning work.
+
+Lab Overview:
+Using create_datatabase_lab10.sql,   Download create_datatabase_lab10.sql, you will create the lab10 database and will review the ERD lab10_ERD.png  Download lab10_ERD.png. This is a basic orders database with four tables, three views, and no data. We will be using a set of four CSV files as a starting point for the source data used in our data import.
+
+customers.csv Download customers.csv
+products.csv Download products.csv
+orders.csv Download orders.csv
+line_items.csv Download line_items.csv

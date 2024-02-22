@@ -1,0 +1,70 @@
+<!-- include your HTML opening tags -->
+<html lang="en">
+<!-- and your hidden "head" tag -->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- and your "title" tag -->
+  <title>Jimmy's Lab</title>
+  <!-- Hook it up to CSS by including style.css in the <head> tag -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- full-width wrapper div -->
+  <div class="wrapper">
+    <!-- header containing: YOUR NAME's Labs For INST377 -->
+    <header class="header"><h1> Jimmy's Labs For INST377</h1></header>
+    <!-- container div -->
+    <div class="container">
+      <!-- left div -->
+      <div class="box left_section">
+        <!-- sub-header saying "albums" -->
+        <h2>Album Names</h2>
+        <!-- Your top 5 albums in an ordered list -->
+        <ol class="box">
+            <li>Nier Automata: Original Soundtrack - SQUARE ENIX MUSIC</li>
+            <li>Weak Hero Class 1 (Original Soundtrack) - Various Artists</li>
+            <li>Forever - Alesso</li>
+            <li>new blood - nafla</li>
+            <li>Fantasies - Metric</li>
+        </ol>
+      </div>
+      <!-- right div -->
+      <div class="box right_section">
+        <!-- sub-header saying "image carousel" -->
+        <h2>Image Carousel</h2>
+        <div class="carousel">
+            <button class="prev">prev</button>
+            <div class="slides">
+                <!-- four images of mochi from your readings, all square (they're four different image types!) -->
+                <div class="carousel_item visible"><img src="images/bakugo1.jpg" alt="An image of Bakugou" /></div>
+                <div class="carousel_item hidden"><img src="images/bakugo2.jpg" alt="An image of Bakugou" /></div>
+                <div class="carousel_item hidden"><img src="images/bakugo3.jpg" alt="An image of Bakugou" /></div>
+                <div class="carousel_item hidden"><img src="images/bakugo4.jpg" alt="An image of Bakugou" /></div>
+            </div>
+            <button class="next">next</button>
+        </div>
+        <!-- div to contain a description or text -->
+        <div class="box descriptions">
+          <p style="margin:0">Bunch of pictures of Bakugou</p>
+        </div>
+      </div>
+    </div>
+    <!-- full-width page footer containing your github account name a link to your github account -->
+    <footer class="footer">
+      <p style="margin:0">jnguye79 <a href="https://github.com/jnguye79">Link</a></p>
+    </footer>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+<!--
+    Replace this with your working code from Lab 2, and include:
+    - The styles in this folder's `style.css`
+    - The script in script.js, which should be included via a `<script src="script.js" >` call before your closing </body> tag 
+-->
