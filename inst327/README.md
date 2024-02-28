@@ -1,4 +1,4 @@
-# MySQL - INST327
+# INST327 - Database Design and Modeling
 A repository for all MySQL work materials completed in INST327 during Spring 2022.
 
  #### This repository will comprise of five parts: ####
