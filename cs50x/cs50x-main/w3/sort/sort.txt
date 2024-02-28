@@ -1,0 +1,41 @@
+sort1 uses: Bubble
+
+How do you know?: Bubble Sort is handled by continually comparing values
+next to one another and sorting them until all values are paired in the
+correct order. However, this method carries more iterations over when compared
+with Selection in the case of reversed50000.txt because all values on the left
+has to the right while all the values on the left need to go to the right.
+This is the worst case scenario for a bubble sort, making sort1 a bubble sort.
+
+sort2 uses: Merge
+
+How do you know?: Merge Sort handles sorting recursively, dividing arrays
+into halves and sorting it out in such a way. At worse-case scenario, we
+can consider that merge sort would have the fastest compiler time out of
+all three sorting algorithms. Merge Sort runs its complexity in (n log n)
+for both best-case and worse-case scenarios.
+
+sort3 uses: Selection
+
+How do you know?: At the worse case scenario, selection sort brings about
+a sort that takes the longest time out of the three. Selection Sort requires
+an iteration through an entire array multiple times in order to sort. Having
+an O(n^2), this type of sorting can be seen having the longest runtime.
+
+
+RAW DATA SAMPLE (using random.txt)
+
+./sort1
+random5000.txt  - 0.110s
+random10000.txt - 0.333s
+random50000.txt - 7.833s
+
+./sort2
+random5000.txt  - 0.022s
+random10000.txt - 0.063s
+random50000.txt - 1.119s
+
+./sort3
+random5000.txt  - 0.067s
+random10000.txt - 0.160s
+random50000.txt - 3.595s

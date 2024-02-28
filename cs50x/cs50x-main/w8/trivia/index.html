@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            // TODO: Add code to check answers to questions
+
+            document.addEventListener('DOMContentLoaded', function() {
+                const ans1Field = document.querySelector("#ans1");
+                const ans2Field = document.querySelector("#ans2");
+                const ans3Field = document.querySelector("#ans3");
+                const ans4Field = document.querySelector("#ans4");
+                const ans5Field = document.querySelector("#ans5");
+                const ansResField = document.querySelector("ans_check");
+                const res2Field = document.querySelector("#res2");
+
+                ans1Field.addEventListener("click", (event) => {
+                    ans1Field.innerHTML = "<span style='color: green;'>6 people per 1 sheep</span><p>Correct!</p>";
+                    console.log("Answer 1 clicked!")
+
+                })
+                ans2Field.addEventListener("click", (event) => {
+                    ans2Field.innerHTML = "<span style='color: red;'>3 people per 1 sheep</span><p>Incorrect.</p>";
+                    console.log("Answer 2 clicked!")
+                })
+                ans3Field.addEventListener("click", (event) => {
+                    ans3Field.innerHTML = "<span style='color: red;'>1 people per 1 sheep</span><p>Incorrect.</p>";
+                    console.log("Answer 3 clicked!")
+                })
+                ans4Field.addEventListener("click", (event) => {
+                    ans4Field.innerHTML = "<span style='color: red;'>1 people per 3 sheep</span><p>Incorrect.</p>";
+                    console.log("Answer 4 clicked!")
+                })
+                ans5Field.addEventListener("click", (event) => {
+                    ans5Field.innerHTML = "<span style='color: red;'>1 people per 6 sheep</span><p>Incorrect.</p>";
+                    console.log("Answer 5 clicked!")
+                })
+
+                document.querySelector('form').addEventListener('submit', function(event) {
+                    let response = document.querySelector('#response').value;
+
+                    if (response == 'Tundra' || response == 'Tundra') {
+                        res2Field.innerHTML = "Correct!"
+                    } else {
+                        res2Field.innerHTML = "Incorrect. Try again."
+                    }
+
+                    event.preventDefault();
+                });
+            });
+        </script>
+    </head>
+
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+
+                <h3>What is the approximate ratio of people to sheep in New Zealand?</h3>
+                <button type="button" id="ans1">6 people per 1 sheep</button>
+                <button type="button" id="ans2">3 people per 1 sheep</button>
+                <button type="button" id="ans3">1 people per 1 sheep</button>
+                <button type="button" id="ans4">1 people per 3 sheep</button>
+                <button type="button" id="ans5">1 people per 6 sheep</button>
+
+                <div class="response"></div>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+
+                <h3>Which word do you think I think is funnier: Tundra or Rambunctious?</h3>
+                <form>
+                    <input autocomplete="off" autofocus id="response" placeholder="answer" type="text">
+                    <button type="submit">Check Answer</button>
+                    <div class="response2" id="res2"></div>
+                </form>
+            </div>
+        </div>
+    </body>
+
+</html>
