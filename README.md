@@ -8,4 +8,4 @@
 - INST327: Database Design and Modeling
 - INST351:
 - INST377: Website Design
-- INST447: 
+- INST447: Data Sources and Manipulation
