@@ -11,4 +11,9 @@ The following courses are taught at the University of Maryland, College Park cam
 - INST377: Dynamic Web Applications
 - INST447: Data Sources and Manipulation
 
+These courses are from the edX platform that are created by Harvard University.
+
+- CS50x: CS50's Introduction to Computer Science
+- CS50p: CS50's Introduction to Programming with Python
+
 *Do not sell, redistribute, use without consent.*
