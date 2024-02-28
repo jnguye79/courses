@@ -32,5 +32,6 @@ This repository consists of:
   * Part A: APIs
 
 #### Programming Assignment Topics ####
-* Programming Assignment 2 - Analyze Instacart orders to determine the rate of specific types of orders. Display research by comparing and analyzing these different aspects.
-* Programming Assignment 3: 
+* Programming Assignment 2: Analyzed Instacart orders to determine the rate of specific types of orders. Display research by comparing and analyzing these different aspects.
+* Programming Assignment 3: Examined relation between average or median household incomes in relation with the number of requests for parking reinforcements within the DC area.
+* Programming Assignment 4: Determined the relation between protein and energy to make a determination of which food categories are most healthy and least healthy.
