@@ -15,3 +15,5 @@ Produced: Summer 2021
 - Project 5: Polymorphic Tree
 - Project 6: Matrix Multiplication
 - Project 7: Kevin Bacon
+
+*Link to course: [https://www.cs.umd.edu/class/summer2019/cmsc132/]*
